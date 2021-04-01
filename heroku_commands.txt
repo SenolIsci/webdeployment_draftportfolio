@@ -1,0 +1,16 @@
+#go to prod folder
+
+#create git in the local app folder:
+!git init
+
+!git add .
+
+!git commit -m "First commit"
+
+#for heroku cli
+!heroku login
+!heroku create senolisci
+!heroku git:remote -a senolisci
+!git push heroku master
+
+!heroku open
