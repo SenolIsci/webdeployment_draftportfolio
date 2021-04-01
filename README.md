@@ -11,7 +11,7 @@ Web deployment on:
 
 ## Installation
 
-`pip install scikit-learn pandas numpy flask gunicorn`
+`pip install flask gunicorn`
 
 `python app.py`
 
